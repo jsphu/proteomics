@@ -1,0 +1,6 @@
+#!/bin/bash
+
+python3 CLI.py $1
+
+img2ascii -i tmp-mol.png -w $(tput cols)|grep -v '^[[:space:]]*$'
+rm tmp-mol.png
