@@ -1,6 +1,5 @@
 from rdkit import Chem
-from rdkit.Chem import Draw, AllChem
-from rdkit.Chem.Draw import rdMolDraw2D
+from rdkit.Chem import AllChem
 from rdkit.Chem.Draw.rdMolDraw2D import MolDraw2DCairo
 from sys import argv
 from shutil import get_terminal_size
